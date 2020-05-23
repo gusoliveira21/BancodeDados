@@ -1,8 +1,8 @@
 # 💾 BancodeDados
 Projeto com C.R.U.D no Android 
 
-- Objetivo: Criar um aplicativo simples no android studio contendo C.R.U.D.
-
+- Objetivo 1: Criar um aplicativo simples no android studio contendo C.R.U.D.
+- Objetivo 2: Criar uma interface mais amigavel para o software.
 
 ## :memo: License
 
