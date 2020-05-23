@@ -6,7 +6,7 @@ Projeto com C.R.U.D no Android
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/gusoliveira21/Game-Unity/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/gusoliveira21/BancodeDados/blob/master/LICENSE) for more information.
 
 Made with by gusoliveira21 :wave: [Get in touch!](https://www.linkedin.com/in/gustavo-dami%C3%A3o-magina-de-oliveira-492b0015b/)
 
