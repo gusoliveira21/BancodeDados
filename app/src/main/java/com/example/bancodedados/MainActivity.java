@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Oculta o actionBar
+        getSupportActionBar().hide();
 
 
         this.mostraConteudo = findViewById(R.id.mostraConteudo);

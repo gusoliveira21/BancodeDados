@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
 
@@ -68,13 +69,13 @@
 
     <Button
         android:id="@+id/botaoDelete"
-        android:layout_width="86dp"
+        android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="39dp"
         android:layout_marginBottom="15dp"
+        android:background="@drawable/excluir"
         android:onClick="setBotaoDelete"
-        android:text="DELETE"
         app:layout_constraintBottom_toTopOf="@+id/BtnListar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/campoNumero"
@@ -126,13 +127,13 @@
 
     <Button
         android:id="@+id/botaoAlterar"
-        android:layout_width="92dp"
-        android:layout_height="44dp"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="31dp"
         android:layout_marginBottom="14dp"
+        android:background="@drawable/alterar"
         android:onClick="setBotaoAlterar"
-        android:text="ALTERAR"
         app:layout_constraintBottom_toTopOf="@+id/botaoDelete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/campoApelido"
@@ -140,13 +141,13 @@
 
     <Button
         android:id="@+id/botaoInserir"
-        android:layout_width="86dp"
+        android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="21dp"
+        android:background="@drawable/adicionar"
         android:onClick="setBotaoInserir"
-        android:text="INSERIR"
         app:layout_constraintBottom_toTopOf="@+id/botaoAlterar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/campoApelido"
@@ -154,13 +155,13 @@
 
     <Button
         android:id="@+id/BtnListar"
-        android:layout_width="90dp"
+        android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="35dp"
         android:layout_marginBottom="37dp"
+        android:background="@drawable/listar"
         android:onClick="setBotaoListar"
-        android:text="LISTAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/campoEmail"
