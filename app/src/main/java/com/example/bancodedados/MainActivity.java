@@ -92,21 +92,20 @@ public class MainActivity extends AppCompatActivity
         arrayList = new ArrayList<>();
 
         //adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, arrayList);
+        //Permite a mudança de cor do list
         adapter = new ArrayAdapter<>(MainActivity.this, R.layout.row, arrayList);
-
-        //arrayAdapter = new ArrayAdapter<String>(this,android.R.Layout.s);
 
         mostraConteudo.setAdapter(adapter);
 
         for (Contatos c : contatos) {
 
-            arrayList.add(//"_________________________________________\n"+
+            arrayList.add(
                     "ID: " + c.getId() +
                     "\nNOME: " + c.getNome()+
                     "\nAPELIDO: "+ c.getApelido() +
                     "\nEMAIL: "+c.getEmail()+
-                    "\nCELULAR: " + c.getCelular()
-                    //+"\n========================================="
+                    "\nCELULAR: " + c.getCelular()+
+                    "\nID: " + c.getId()
             );
             adapter.notifyDataSetChanged();
             AtualizaContagem ();

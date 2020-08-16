@@ -4,10 +4,8 @@ public class Contatos
 {
     int id;
     String nome;
-
     String apelido;
     String email;
-
     String numeroCelular;
 
     public Contatos()
@@ -40,7 +38,6 @@ public class Contatos
     {
         return id;
     }
-
 
     public String getApelido() {
         return apelido;
