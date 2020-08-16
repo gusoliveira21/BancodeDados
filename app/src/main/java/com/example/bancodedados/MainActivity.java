@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //Oculta o actionBar
         getSupportActionBar().hide();
 
@@ -79,6 +80,8 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+
+
     ArrayList<String> arrayList;
     ArrayAdapter<String> adapter;
 
@@ -87,7 +90,12 @@ public class MainActivity extends AppCompatActivity
         List<Contatos> contatos = banco.listaTodosContatos();
 
         arrayList = new ArrayList<>();
-        adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, arrayList);
+
+        //adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, arrayList);
+        adapter = new ArrayAdapter<>(MainActivity.this, R.layout.row, arrayList);
+
+        //arrayAdapter = new ArrayAdapter<String>(this,android.R.Layout.s);
+
         mostraConteudo.setAdapter(adapter);
 
         for (Contatos c : contatos) {
@@ -119,7 +127,6 @@ public class MainActivity extends AppCompatActivity
             AtualizaContagem();
             setBotaoListar(view);
         }
-
     }
 
     public void setBotaoAlterar(View view)
@@ -147,12 +154,15 @@ public class MainActivity extends AppCompatActivity
 
 
     public void AtualizaContagem (){
-
         int qtdContatos = banco.consultaQuantidadeContatos ();
-
         this.contagem.setText(String.valueOf(qtdContatos));
 
     }
+
+
+
+
+
 
 
 }
