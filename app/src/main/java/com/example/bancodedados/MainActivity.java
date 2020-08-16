@@ -1,6 +1,8 @@
 package com.example.bancodedados;
 
 //import android.content.Context;
+import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity
 {
@@ -27,8 +30,6 @@ public class MainActivity extends AppCompatActivity
 
     Button botaoAlterar;
     Button botaoInserir;
-    //String AUX = null;
-    //String text = "";
 
     BancoDeDados banco = new BancoDeDados(this);
 
@@ -41,7 +42,6 @@ public class MainActivity extends AppCompatActivity
         //Oculta o actionBar
         getSupportActionBar().hide();
 
-
         this.mostraConteudo = findViewById(R.id.mostraConteudo);
         this.campoNumero = findViewById(R.id.campoNumero);
         this.campoApelido = findViewById(R.id.campoApelido);
@@ -52,12 +52,10 @@ public class MainActivity extends AppCompatActivity
         this.botaoAlterar = findViewById(R.id.botaoAlterar);
         this.botaoDelete = findViewById(R.id.botaoDelete);
         this.botaoInserir = findViewById(R.id.botaoInserir);
-
     }
 
 
     public void setBotaoInserir(View view) {
-
        if (campoID.getText().toString().isEmpty())
             Toast.makeText(this, " Informe o ID para Inserir  ", Toast.LENGTH_SHORT).show();
         else if ((campoNome.getText().toString().isEmpty() || campoNumero.getText().toString().isEmpty())||campoEmail.getText().toString().isEmpty()||campoApelido.getText().toString().isEmpty())
@@ -80,8 +78,6 @@ public class MainActivity extends AppCompatActivity
             setBotaoListar(view);
         }
     }
-
-
 
     ArrayList<String> arrayList;
     ArrayAdapter<String> adapter;
@@ -113,13 +109,12 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public void setBotaoDelete (View view) {
-
-        if (campoID.getText().toString().isEmpty()) {
-
+    public void setBotaoDelete (View view)
+    {
+        if (campoID.getText().toString().isEmpty())
+        {
             Toast.makeText(this, " Insira o ID a ser Excluido! ", Toast.LENGTH_SHORT).show();
         } else {
-
             Contatos contato = new Contatos();
 
             contato.setId(Integer.parseInt(campoID.getText().toString()));
@@ -150,19 +145,10 @@ public class MainActivity extends AppCompatActivity
     }
     }
 
-
-
-
-    public void AtualizaContagem (){
+    public void AtualizaContagem ()
+    {
         int qtdContatos = banco.consultaQuantidadeContatos ();
         this.contagem.setText(String.valueOf(qtdContatos));
-
     }
-
-
-
-
-
-
 
 }

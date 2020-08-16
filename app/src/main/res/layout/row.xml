@@ -5,5 +5,6 @@
     android:layout_width="fill_parent"
     android:textSize="15sp"
     android:gravity="bottom"
-    android:textColor="#FFFFFF">
+    android:textColor="#FFFFFF"
+    android:fontFamily="@font/courgette">
 </TextView>
