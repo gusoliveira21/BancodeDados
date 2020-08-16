@@ -92,7 +92,14 @@ public class MainActivity extends AppCompatActivity
 
         for (Contatos c : contatos) {
 
-            arrayList.add("=========================================\n"+"ID: " + c.getId() + "\nNOME: " + c.getNome()+ "\nAPELIDO: "+ c.getApelido() + "\nEMAIL: "+c.getEmail()+"\nCELULAR: " + c.getCelular()+"\n=========================================");
+            arrayList.add(//"_________________________________________\n"+
+                    "ID: " + c.getId() +
+                    "\nNOME: " + c.getNome()+
+                    "\nAPELIDO: "+ c.getApelido() +
+                    "\nEMAIL: "+c.getEmail()+
+                    "\nCELULAR: " + c.getCelular()
+                    //+"\n========================================="
+            );
             adapter.notifyDataSetChanged();
             AtualizaContagem ();
         }
