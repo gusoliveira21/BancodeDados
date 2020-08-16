@@ -71,9 +71,10 @@ public class MainActivity extends AppCompatActivity
             contato.setNome(campoNome.getText().toString());
             contato.setApelido(campoApelido.getText().toString());
             contato.setEmail(campoEmail.getText().toString());
-            contato.setCelular(campoNumero.getText().toString());
-            resultado = banco.insereContatos(contato);
 
+            contato.setCelular(campoNumero.getText().toString());
+
+            resultado = banco.insereContatos(contato);
             Toast.makeText(this,resultado, Toast.LENGTH_SHORT).show();
             AtualizaContagem ();
             setBotaoListar(view);
