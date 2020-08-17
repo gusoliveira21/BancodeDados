@@ -3,6 +3,7 @@ Projeto com C.R.U.D no Android
 
 - [x] Objetivo 1: Criar um aplicativo simples no android studio contendo C.R.U.D.
 - [x] Objetivo 2: Criar uma interface mais amigavel para o software.
+- [ ] Objetivo 3: Corrigir bugs.
 
 <p align="center">
 <img src='https://user-images.githubusercontent.com/42920754/90356445-f3633b80-e025-11ea-845c-cf297af583a0.jpeg' width='30%'>
