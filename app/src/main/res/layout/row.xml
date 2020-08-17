@@ -3,7 +3,7 @@
     android:id="@android:id/text1"
     android:layout_height="?android:attr/listPreferredItemHeight"
     android:layout_width="fill_parent"
-    android:textSize="15sp"
+    android:textSize="12sp"
     android:gravity="bottom"
     android:textColor="#FFFFFF"
     android:fontFamily="@font/courgette">

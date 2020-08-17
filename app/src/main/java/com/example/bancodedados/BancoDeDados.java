@@ -76,9 +76,8 @@ public class BancoDeDados extends SQLiteOpenHelper
         if (resultado == 1) {
             return " CONTATO DE NOME: " + contatos.getNome() + " inserido com sucesso ";
         } else {
-            return " O ID " + contatos.getId() + "já está sendo usado ";
+            return " O ID " + contatos.getId() + " já está sendo usado ";
         }
-
 
     }
 
