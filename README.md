@@ -26,6 +26,7 @@ Made with by gusoliveira21 :wave: [Get in touch!](https://www.linkedin.com/in/gu
 
 ## ☕ Donation
 
-Se este projeto lhe ajudou de alguma forma não esqueça de contribuir para o café desse dev! :)
+- Se este projeto lhe ajudou de alguma forma não esqueça de contribuir para o café desse dev! :)
+- If this project helped you in any way don't forget to contribute to that dev's coffee! :)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P87GHQLSDSJU2&source=url)
