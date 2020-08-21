@@ -1,9 +1,9 @@
 # 💾 BancodeDados
 Projeto com C.R.U.D no Android 
 
-- [x] Objetivo 1: Criar um aplicativo simples no android studio contendo C.R.U.D.
-- [x] Objetivo 2: Criar uma interface mais amigavel para o software.
-- [ ] Objetivo 3: Corrigir bugs.
+- [x] Objective 1: Create a simple android studio application containing C.R.U.D.
+- [x] Objective 2: Create a more user-friendly interface for the software.
+- [ ] Objective 3: Fix Bugs.
 
 <p align="center">
 <img src='https://user-images.githubusercontent.com/42920754/90356445-f3633b80-e025-11ea-845c-cf297af583a0.jpeg' width='30%'>
