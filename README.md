@@ -1,6 +1,9 @@
 # 💾 BancodeDados
 Projeto com C.R.U.D no Android 
 
+- Inglês
+- <a href='https://github.com/gusoliveira21/BancodeDados/blob/master/README-br.md'>Portugues<a/>
+
 - [x] Objective 1: Create a simple android studio application containing C.R.U.D.
 - [x] Objective 2: Create a more user-friendly interface for the software.
 - [ ] Objective 3: Fix Bugs.
