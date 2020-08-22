@@ -2,7 +2,7 @@
 Projeto com C.R.U.D no Android 
 
 - <a href='https://github.com/gusoliveira21/BancodeDados/tree/master'>Inglês<a/>
-- <a href='www.googlw.com'>Portugues<a/>
+- Portugues
 
 - [x] Objetivo 1: Criar um aplicativo no Android estúdio contendo um simples contendo C.R.U.D.
 - [x] Objetivo 2: Criar uma interface mais amigável para o software.
