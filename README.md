@@ -1,6 +1,4 @@
 # 💾 BancodeDados
-Projeto com C.R.U.D no Android 
-
 - Inglês
 - <a href='https://github.com/gusoliveira21/BancodeDados/blob/master/README-br.md'>Portugues<a/>
 
