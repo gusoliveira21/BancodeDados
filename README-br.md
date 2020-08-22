@@ -1,5 +1,4 @@
 # 💾 BancodeDados
-Projeto com C.R.U.D no Android 
 
 - <a href='https://github.com/gusoliveira21/BancodeDados/tree/master'>Inglês<a/>
 - Portugues
